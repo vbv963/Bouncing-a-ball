@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5358193945477446014}
   - component: {fileID: 6512293053330202252}
   - component: {fileID: 3524689538279244140}
+  - component: {fileID: 2540563554137669107}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -97,3 +98,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26c1f58bd7367f4783a893960a2c2a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileImages:
+  - {fileID: 21300000, guid: 01578966368ed854282d0b6b00f8ce93, type: 3}
+  - {fileID: 21300000, guid: 2008e1e5944b1124a8b9f4ed515e35b6, type: 3}
+  - {fileID: 21300000, guid: bda3a2b2b61a59140b48957cd9829f20, type: 3}
+  - {fileID: 21300000, guid: 7cbde54251a22864fbbb1af65ba80e60, type: 3}
+  - {fileID: 21300000, guid: c9e61d3349e70c44386ae24f9606be30, type: 3}
+  - {fileID: 21300000, guid: 53906d2e03dc5a44a88e81d82deb1688, type: 3}
+  - {fileID: 21300000, guid: 03f1b5ef7f8e7484ca2048f432a70baf, type: 3}
+  - {fileID: 21300000, guid: 752bad17c4f3480449dcbed802b19b4c, type: 3}
+  itemImages:
+  - {fileID: 21300000, guid: 60f4a320dc7a4e54ba2101f55b93480e, type: 3}
+  PlayerImage: {fileID: 21300000, guid: 60cae91bf9e08294abdb0fd8adb48915, type: 3}
+--- !u!65 &2540563554137669107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959696520267240290}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
